@@ -1,0 +1,99 @@
+
+
+body{
+  
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+
+.progress-component {
+  overflow-y: hidden;
+}
+.statusButton,
+.progressStatus  {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.multicolourBar{
+  flex-direction: row;
+  margin: 10px;
+}
+.empty-my-items-screen {
+  height: 160px;
+  position: relative;
+  width: 160px;
+}
+
+.empty-my-items-screen .artwork {
+  height: 176px;
+  left: -12px;
+  position: absolute;
+  top: -16px;
+  width: 183px;
+}
+
+/* Add margin-right to all button elements except the last one */
+.statusButton > div:not(:last-child) {
+  margin-right: 10px;
+}
+
+
+.progressTitle {
+  margin: 0px 0px 0px 10px;
+}
+
+.multicolor-bar {
+  margin-left: 15px;
+}
+
+.multicolor-bar .bars .bar {
+  float: left;
+  height: 10px;
+ 
+}
+
+
+.multicolor-bar .bars div.bar {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 1px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+.ant-card .ant-card-body{
+  padding: 0px !important;
+  border-radius: 0px !important;
+  
+}
+.ant-card .ant-card-head {
+ 
+  border-bottom: none !important;
+ 
+}
+
+.ant-card-bordered {
+  border: 1px solid #f0f0f0;
+  height: 140px;
+}
+
+h5:where(.css-18iikkb).ant-typography, div:where(.css-18iikkb).ant-typography-h5, div:where(.css-18iikkb).ant-typography-h5>textarea, :where(.css-18iikkb).ant-typography h5 {
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 15px;
+}
